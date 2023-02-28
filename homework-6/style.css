@@ -1,0 +1,80 @@
+@import "./style.css";
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #070707;
+}
+
+body {
+    background-color: #fff;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 48px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 34px;
+}
+
+a, a:active {
+color: #070707;
+}
+
+.bg-grey {
+    background-color: #E5E5E5;
+}
+
+p, a {
+line-height: 24.51px;
+}
+
+.btn {
+    font-family: 700;
+    background-color: #070707;
+    color: #fff;
+    padding: 10px 16px;
+    border-radius: 22px;
+    border: 4px solid #070707;
+    cursor: pointer;
+    letter-spacing: 0.1em;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #070707;
+    border: 4px solid #070707;
+} 
+
+.wrapper {
+   max-width: 970px;
+   margin: 0 auto; 
+}
+
+.header-nav {
+    border-bottom: 1px solid #828282;
+    padding: 27px;
+}
+
+.header-nav ul{
+display: flex;
+justify-content: center;
+}
+
+.header-nav ul li:not(:last-of-type) {
+   margin-right: 40px; 
+}
+
+.header-nav a {
+    text-transform: unset;
+    opacity: .5;
+    letter-spacing: 0.02em;
+}
+
+.header-nav a:hover, .header-nav li.active a {
+    opacity: unset;
+}

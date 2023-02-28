@@ -4,10 +4,124 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>homework-6</title>
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <ink rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+
+    <title>Denis Novik</title>
+    <link rel="stylesheet" href="./style.css"/>
 </head>
 <body>
+    <header class="wrapper">
+        <nav class="header-nav">
+            <ul>
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="about">About</a></li>
+                <li><a href="portfolio">Portfolio</a></li>
+                <li><a href="skills">Skills</a></li>
+                <li><a href="contakts">Contakts</a></li>
+                </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!--Photo-->
+<section class="wrapper">
+    <h1>Denis Novik</h1>
+    <img scr="./img/pfoto.jpg" alt="Denis Novik"> 
+</section>
+
+<!--About me-->
+<section id="about-me" class="bg-grey">
+    <div class="wrapper">
+    <h2>About me</h2>
+    <p>Hi, I'm Denis – UX/UI designer from Minsk.
+        I'm interested in design and everything connected with it.</p>
+    <p>I'm studying at courses "Web and mobile design 
+        interfaces" in IT-Academy.</p>
+    <p>Ready to implement excellent projects
+        with wonderful people.</p>
+    </div> 
+</section>
+
+<!--Skills-->
+<section id="skills" class="wrapper">
+    <div>
+    <h2>Skills</h2>
+    <p>I work in such programs as</p>
+</div>
+
+<div>
+    <div>
+        <img src="./img/Ps.svg" alt="Skills Ps">
+        <span>Adobe Photoshop</span>
+    </div>
+
+    <div>
+        <img src="./img/Ai.svg" alt="Skills Ps">
+        <span>Adobe Illustrator</span>
+    </div>
+
+    <div>
+        <img src="./img/Ae.svg" alt="Skills Ps">
+        <span>Adobe After Effects</span>
+    </div>
+
+    <div>
+        <img src="./img/Figma.svg" alt="Skills Ps">
+        <span>Figma</span>
+    </div>
+</div>
+</section>
+
+<!--Portfolio-->
+<section id="portfolio" class="bg-grey">
+    <div class="wrappe">
+<h2>Portfolio</h2>
+
+<div>
+    <img src="./img/Fashion-Store.jpg" alt="Portfolio - Fashion-Store">
+    <a href="#">Online fashion store - Homepage</a>
+</div>
+
+<div>
+    <img src="./img/reebok_web.jpg" alt="reebok_web">
+    <a href="#">Reebok Store - Concept</a>
+</div>
+
+<div>
+    <img src="./img/braun-landing.jpg" alt="braun-landing">
+    <a href="#">Braun Landing Page - Concept</a>
+</div>
+</div>
+</section>
+    </main>
+
+    <!--Contacts-->
+    <footer id="contakts" class="wrapper">
+        <div>
+            <h2>Contacts</h2>
+            <p>Want to know more or just chat? 
+                You are welcome!</p>
+        </div>
+<form action="mailto:denisNovik@test.com">
+        <button type="submit" class="btn">Send message</button>
+    </form>
+
+    <div>
+<ul>
+    <li><a href="#"><img src="./img/linkedin.svg" alt="linkedin"></a></li>
+    <li><a href="#"><img src="./img/instagram.svg" alt="instagram"></a></li>
+    <li><a href="#"><img src="./img/behance.svg" alt="behance"></a></li>
+    <li><a href="#"><img src="./img/dribbble.svg" alt="dribbble"></a></li>
+</ul>
+<p>Like me on
+    LinkedIn, Instagram, Behance, Dribble</p>
+    </div>
+    </footer>
     
+
 </body>
+
 </html>
