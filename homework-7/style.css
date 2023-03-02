@@ -1,0 +1,104 @@
+@import "./reset.css";
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background: #3B3F45;
+    font-family:"Roboto";
+    border: 20px solid #E5E5E5;
+    color: #fff;
+    margin: 0 auto;
+}
+
+
+.shopping {
+    background: #4A4F56;
+    text-align: center;
+    padding: 20px;
+    color:  #FF8984;
+}
+
+.h1 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.h3 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.point-1 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 534px;
+    height: 45px;
+    left: 129px;
+    top: 102px;
+    background: #88839E;
+}
+
+.point-2 {
+    position: absolute;
+    width: 534px;
+    height: 45px;
+    left: 129px;
+    top: 147px;
+    background: #7A7593;
+}
+
+.point-3 {
+    position: absolute;
+    width: 534px;
+    height: 45px;
+    left: 129px;
+    top: 192px;
+    background: #88839E;
+}
+
+.point-4 {
+    position: absolute;
+    width: 534px;
+    height: 45px;
+    left: 129px;
+    top: 237px;
+    background: #625E77;
+}
+
+.point-5 {
+    position: absolute;
+    width: 534px;
+    height: 45px;
+    left: 129px;
+    top: 282px;
+    background: #88839E;
+}
+
+.point-6 {
+    position: absolute;
+    width: 534px;
+    height: 45px;
+    left: 129px;
+    top: 327px;
+    background: #7A7593;
+}
+.btn {
+    position: absolute;
+    width: 534px;
+    height: 45px;
+    left: 129px;
+    top: 417px;
+    display: flex;
+    align-items: center;
+    color: #FF8984;
+    background: #4A4F56;
+}
