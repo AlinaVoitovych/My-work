@@ -1,0 +1,125 @@
+@import "./reset.css";
+
+
+body {
+    background-color:#E5E5E5;
+}
+
+.text {
+    font-size: 21px;
+    line-height: 25px;
+    color: #FFFFFF;
+    width: 224px;
+    height: 25.28px;
+    font-family: 'Lucida Sans Unicode';
+   
+}
+.main {
+background-color: #3399CC;
+box-sizing: border-box;
+position: relative;
+width: 1440px;
+height: 900px;
+border: 25px solid #2B81AC;
+}
+
+.cities {
+    font-family: 'Lucida Sans Unicode';
+    line-height: 26px;
+    color: #FFFFFF;
+    text-align: center;
+    display: flex;
+
+}
+
+.lisbon {
+    box-sizing: border-box; 
+    width: 583px;
+    height: 147px;
+    background: #3399CC;
+    border: 2px solid #FFFFFF;
+}
+
+        
+.paris {
+    box-sizing: border-box;
+    width: 291px;
+    height: 147px;
+    background: #33CCCC;
+    border: 2px solid #FFFFFF;
+}
+
+.belgrade {
+    box-sizing: border-box;
+    width: 291.5px;
+    height: 147px;
+    background: #996699;
+    border: 2px solid #FFFFFF;
+
+}
+
+.venice {
+    box-sizing: border-box;
+    width: 291px;
+    height: 147px;
+    background: #C24747;
+    border: 2px solid #FFFFFF;
+
+}
+
+.tel-Avive {
+    box-sizing: border-box;
+    width: 291.5px;
+    height: 147px;
+    background: #E2674A;
+    border: 2px solid #FFFFFF;
+}
+
+.cair {
+    box-sizing: border-box;
+    width: 291.5px;
+    height: 147px;
+    background: #FFCC66;
+    border: 2px solid #FFFFFF;
+}
+
+.new-York {
+    box-sizing: border-box;
+    border: 2px solid #FFFFFF;
+    background: #99CC99;
+    width: 291.5px;
+    height: 147px;
+}
+
+.new-Delhi {
+    box-sizing: border-box;
+    width: 291.5px;
+    height: 147px;
+    background: #669999;
+    border: 2px solid #FFFFFF;
+}
+
+.san-Francisco {
+    box-sizing: border-box;
+    width: 583px;
+    height: 147px;
+    background: #CC6699;
+    border: 2px solid #FFFFFF;
+}
+
+.tokyo {
+    box-sizing: border-box;
+    width: 291.5px;
+    height: 147px;
+    background: #339966;
+    border: 2px solid #FFFFFF;
+}
+
+.sydney {
+    box-sizing: border-box;
+    width: 1166px;
+    height: 147px;
+    background: #666699;
+    border: 2px solid #FFFFFF;
+}
+
