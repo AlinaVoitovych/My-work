@@ -6,14 +6,17 @@ body {
 }
 
 .text {
-    font-size: 21px;
-    line-height: 25px;
-    color: #FFFFFF;
-    width: 224px;
-    height: 25.28px;
+    position: absolute;
+    left: 135px;
+    top: 66.1px;
     font-family: 'Lucida Sans Unicode';
-   
+    font-size: 21px;
+    line-height: 25px; 
+    color: #FFFFFF;
+    margin-top: 2px;
+    text-decoration:underline blue; 
 }
+
 .main {
 background-color: #3399CC;
 box-sizing: border-box;
@@ -21,6 +24,7 @@ position: relative;
 width: 1440px;
 height: 900px;
 border: 25px solid #2B81AC;
+color: #E5E5E5;
 }
 
 .cities {
@@ -29,13 +33,23 @@ border: 25px solid #2B81AC;
     color: #FFFFFF;
     text-align: center;
     display: flex;
+    box-sizing:border-box;
+    opacity: .7;
+}
 
+.cities :hover {
+   border-style:outset;
+   border-color: #3333cc;
+   opacity: none;
 }
 
 .lisbon {
-    box-sizing: border-box; 
+    box-sizing: border-box;
+    position: absolute;
     width: 583px;
     height: 147px;
+    left: 137px;
+    top: 131px;
     background: #3399CC;
     border: 2px solid #FFFFFF;
 }
@@ -43,83 +57,125 @@ border: 25px solid #2B81AC;
         
 .paris {
     box-sizing: border-box;
-    width: 291px;
+    position: absolute;
+    width: 291.5px;
     height: 147px;
+    left: 720px;
+    top: 131px;
     background: #33CCCC;
     border: 2px solid #FFFFFF;
 }
 
 .belgrade {
     box-sizing: border-box;
+    position: absolute;
     width: 291.5px;
     height: 147px;
+    left: 1011px;
+    top: 131px;
     background: #996699;
     border: 2px solid #FFFFFF;
-
 }
 
 .venice {
     box-sizing: border-box;
-    width: 291px;
+    position: absolute;
+    width: 291.5px;
     height: 147px;
+    left: 137px;
+    top: 278px;
     background: #C24747;
     border: 2px solid #FFFFFF;
-
 }
 
 .tel-Avive {
     box-sizing: border-box;
+    position: absolute;
     width: 291.5px;
     height: 147px;
+    left: 428px;
+    top: 278px;
     background: #E2674A;
     border: 2px solid #FFFFFF;
 }
 
 .cair {
     box-sizing: border-box;
+    position: absolute;
     width: 291.5px;
     height: 147px;
+    left: 720px;
+    top: 278px;
     background: #FFCC66;
     border: 2px solid #FFFFFF;
 }
 
 .new-York {
     box-sizing: border-box;
-    border: 2px solid #FFFFFF;
-    background: #99CC99;
+    position: absolute;
     width: 291.5px;
     height: 147px;
+    left: 1011px;
+    top: 278px;
+    
+    background: #99CC99;
+    border: 2px solid #FFFFFF;
+    
 }
 
 .new-Delhi {
     box-sizing: border-box;
+    position: absolute;
     width: 291.5px;
     height: 147px;
+    left: 137px;
+    top: 425px;
     background: #669999;
     border: 2px solid #FFFFFF;
 }
 
 .san-Francisco {
     box-sizing: border-box;
+    position: absolute;
     width: 583px;
     height: 147px;
+    left: 428px;
+    top: 425px;
     background: #CC6699;
     border: 2px solid #FFFFFF;
 }
 
 .tokyo {
     box-sizing: border-box;
+    position: absolute;
     width: 291.5px;
     height: 147px;
+    left: 1011px;
+    top: 425px;
     background: #339966;
     border: 2px solid #FFFFFF;
 }
 
 .sydney {
     box-sizing: border-box;
+    position: absolute;
     width: 1166px;
     height: 147px;
+    left: 137px;
+    top: 572px;
     background: #666699;
     border: 2px solid #FFFFFF;
 }
 
+.have-a-nice-day {
+position: absolute;
+width: 549px;
+height: 25px;
+left: 137px;
+top: 756px;
+font-family: 'Lucida Sans Unicode';
+font-size: 16px;
+line-height: 19px;
+color: #FFFFFF;
+text-decoration:underline blue;
+}
