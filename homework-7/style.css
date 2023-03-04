@@ -1,44 +1,60 @@
 @import "./reset.css";
 
-html,
-body {
-    height: 100%;
+* {
+    transition:all  .1s ease-in;
 }
 
 body {
-    background: #3B3F45;
+    background: #E5E5E5; 
+}
+
+ form {
+    box-sizing: border-box;
+    display: flex;
     font-family:"Roboto";
-    border: 20px solid #E5E5E5;
-    color: #fff;
-    margin: 0 auto;
-}
+    position: absolute;
+    width: 793px;
+    height: 507px;
+    left: 0px;
+    top: 0px;
+    background: #3B3F45;
+    border: 1px solid #3B3F45;
+ }
 
-
+ 
 .shopping {
+    position: absolute;
+    width: 793px;
+    height: 82px;
+    left: 0px;
+    top: 0px;
     background: #4A4F56;
-    text-align: center;
-    padding: 20px;
-    color:  #FF8984;
 }
 
 .h1 {
+    position: absolute;
+    left: 247px;
     font-weight: 700;
     font-size: 24px;
     line-height: 28px;
-    padding-top: 10px;
-    padding-bottom: 5px;
+    color: #FF8984;
 }
 
 .h3 {
+    position: absolute;
+    left: 316px;
+    top: 35px;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    padding-top: 10px;
-    padding-bottom: 5px;
+    font-size: 16px; 
+    color: #FF8984;
+}
+
+.main-content {
+font-size: 18px;
+color: #FFFFFF;
 }
 
 .point-1 {
-    box-sizing: border-box;
     position: absolute;
     width: 534px;
     height: 45px;
@@ -47,25 +63,66 @@ body {
     background: #88839E;
 }
 
+.checkbox-1 { 
+    width: 19px;
+    height: 19px;
+    background: #FFFFFF;
+    margin-top: 12px;
+}
+
+.point-1 :hover {
+    text-decoration:line-through;
+    color: #9B96AC;
+    border: #FFFFFF;
+}
 .point-2 {
+    box-sizing: border-box;
     position: absolute;
     width: 534px;
     height: 45px;
     left: 129px;
     top: 147px;
     background: #7A7593;
+    text-decoration:line-through;
+    color: #9B96AC;
+}
+
+.checkbox-2 {
+    width: 19px;
+    height: 19px;
+    background: #FFFFFF;
+    margin-top: 12px;
+}
+
+.point-2 :hover {
+    color: #9B96AC;
+    border: #FFFFFF;
 }
 
 .point-3 {
-    position: absolute;
-    width: 534px;
-    height: 45px;
-    left: 129px;
-    top: 192px;
-    background: #88839E;
+box-sizing: border-box;
+position: absolute;
+width: 534px;
+height: 45px;
+left: 129px;
+top: 192px;
+background: #88839E;
 }
 
+.checkbox-3 {
+    width: 19px;
+    height: 19px;
+    background: #FFFFFF;
+    margin-top: 12px;
+}
+
+.point-3 :hover {
+    text-decoration:line-through;
+    color: #9B96AC;
+    border: #FFFFFF;
+}
 .point-4 {
+    box-sizing: border-box;
     position: absolute;
     width: 534px;
     height: 45px;
@@ -74,7 +131,20 @@ body {
     background: #625E77;
 }
 
+.checkbox-4 {
+    width: 19px;
+    height: 19px;
+    background: #FFFFFF;
+    margin-top: 12px;
+}
+
+.point-4 :hover {
+    text-decoration:line-through;
+    color: #9B96AC;
+    border: #FFFFFF;
+}
 .point-5 {
+    box-sizing: border-box;
     position: absolute;
     width: 534px;
     height: 45px;
@@ -83,22 +153,52 @@ body {
     background: #88839E;
 }
 
+.checkbox-5 {
+    width: 19px;
+    height: 19px;
+    background: #FFFFFF;
+    margin-top: 12px;
+}
+
+.point-5 :hover {
+    text-decoration:line-through;
+    color: #9B96AC;
+    border: #FFFFFF;
+}
 .point-6 {
+    box-sizing: border-box;
     position: absolute;
     width: 534px;
     height: 45px;
     left: 129px;
     top: 327px;
     background: #7A7593;
+    display: block;
+    text-decoration:line-through;
+    color: #9B96AC;
 }
+
+.checkbox-6 {
+    width: 19px;
+    height: 19px;
+    background: #FFFFFF;
+    margin-top: 12px;
+}
+
+.point-6 :hover {
+    text-decoration:line-through;
+    color: #9B96AC;
+    border-color: #FFFFFF;
+}
+
 .btn {
+    box-sizing: border-box;
     position: absolute;
     width: 534px;
     height: 45px;
     left: 129px;
     top: 417px;
     display: flex;
-    align-items: center;
     color: #FF8984;
     background: #4A4F56;
 }
