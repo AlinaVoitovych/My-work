@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius+Unicase&family=Roboto:wght@400;500&display=swap');
+
+body {
+    background: #E5E5E5;
+}
+
+.main {
+    position: relative;
+    width: 1440px;
+    height: 5565px;
+    background: #FFFFFF;
+}
+
+.text-1 {
+    font-family: 'Delius Unicase';
+    font-weight: 400; 
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #000000;
+    position: absolute;
+    width: 644px;
+    height: 45px;
+    top: 120px;
+    left: 397px;
+}
+
+.grid {
+    display: grid;
+    grid-template-areas: "a b b"
+                         "c c d"
+                         "e f f";
+}
+
+.grid-item-first {
+    grid-area: a;    
+    position: absolute;
+    width: 370px;
+    height: 370px;
+    left: 135px;
+    top: 245px;
+}
+
+   .grid-item-second {
+    grid-area: b;
+    position: absolute;
+    width: 770px;
+    height: 370px;
+    left: 535px;
+    top: 245px;
+   }
+   .grid-item-third {
+    grid-area: c;
+    position: absolute;
+    width: 770px;
+    height: 370px;
+    left: 135px;
+    top: 645px;
+   }
+
+   .grid-item-fourth {
+    grid-area: d;
+    position: absolute;
+    width: 370px;
+    height: 370px;
+    left: 935px;
+    top: 645px; 
+   }
+
+   .grid-item-fifth {
+    grid-area: e;
+    position: absolute;
+    width: 370px;
+    height: 370px;
+    left: 135px;
+    top: 1045px;
+}
+
+   .grid-item-sixth {
+    grid-area: f;         
+    position: absolute;
+    width: 770px;
+    height: 370px;
+    left: 535px;
+    top: 1045px;
+}
+
+.text-2 {
+    font-family: 'Delius Unicase';
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #000000;
+    position: absolute;
+    width: 531px;
+    height: 45px;
+    left: 454px;
+    top: 1535px;
+} 
+
+/* Grid-2 */
+
+
+.grid-second {
+    display: grid;
+    grid-template-areas: "g h h"
+                         "i i j"
+                         "i i j"
+                         "k k l";
+}
+
+.grid-item-one {
+    grid-area: g;    
+    position: absolute;
+    width: 370px;
+    height: 370px;
+    left: 135px;
+    top: 1660px;
+}
+
+
+   .grid-item-two {
+    grid-area: h;
+    position: absolute;
+    width: 770px;
+    height: 370px;
+    left: 535px;
+    top: 1660px;    
+   }
+
+   .grid-item-three {
+    grid-area: i;
+    position: absolute;
+    width: 770px;
+    height: 770px;
+    left: 135px;
+    top: 2060px;
+   }
+
+   .grid-item-four {
+    grid-area: j;
+    position: absolute;
+    width: 370px;
+    height: 770px;
+    left: 935px;
+    top: 2060px;
+   }
+
+   .grid-item-five {
+    grid-area: k;
+    position: absolute;
+    width: 770px;
+    height: 370px;
+    left: 135px;
+    top: 2860px;
+}
+
+   .grid-item-six {
+    grid-area: l;         
+    position: absolute;
+    width: 370px;
+    height: 370px;
+    left: 935px;
+    top: 2860px;
+}
+
