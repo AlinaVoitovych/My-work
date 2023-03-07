@@ -24,7 +24,9 @@ body {
     left: 397px;
 }
 
-.grid {
+/* Grid - 1 */
+
+.grid-1 {
     display: grid;
     grid-template-areas: "a b b"
                          "c c d"
@@ -39,7 +41,32 @@ body {
     left: 135px;
     top: 245px;
 }
-
+.image-1-1 {
+border-radius: 20px;
+opacity: 0.8;
+}
+.image-1-1:hover {
+    opacity: 1;
+}
+.text-element {
+    position: absolute;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+    top: 327px;
+    padding-left: 20px;
+}
+.date {
+    font-family: 'Roboto';
+    font-weight: 400;
+    padding-left: 240px;
+    position: absolute;
+    top: 327px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #E0E0E0;
+}
    .grid-item-second {
     grid-area: b;
     position: absolute;
@@ -48,6 +75,24 @@ body {
     left: 535px;
     top: 245px;
    }
+   .image-2-1 {
+    border-radius: 20px;
+    opacity: 0.8;
+    }
+    .image-2-1:hover {
+        opacity: 1;
+    }
+    .date-big {
+        font-family: 'Roboto';
+        font-weight: 400;
+        padding-left: 616px;
+        position: absolute;
+        top: 327px;
+        font-weight: 400;
+        font-size: 20px;
+        color: #E0E0E0;
+    }
+
    .grid-item-third {
     grid-area: c;
     position: absolute;
@@ -56,6 +101,13 @@ body {
     left: 135px;
     top: 645px;
    }
+   .image-3-1 {
+    border-radius: 20px;
+    opacity: 0.8;
+    }
+    .image-3-1:hover {
+        opacity: 1;
+    }
 
    .grid-item-fourth {
     grid-area: d;
@@ -65,6 +117,13 @@ body {
     left: 935px;
     top: 645px; 
    }
+   .image-4-1 {
+    border-radius: 20px;
+    opacity: 0.8;
+    }
+    .image-4-1:hover {
+        opacity: 1;
+    }
 
    .grid-item-fifth {
     grid-area: e;
@@ -74,6 +133,13 @@ body {
     left: 135px;
     top: 1045px;
 }
+.image-5-1 {
+    border-radius: 20px;
+    opacity: 0.8;
+    }
+    .image-5-1:hover {
+        opacity: 1;
+    }
 
    .grid-item-sixth {
     grid-area: f;         
@@ -83,6 +149,13 @@ body {
     left: 535px;
     top: 1045px;
 }
+.image-6-1 {
+    border-radius: 20px;
+    opacity: 0.8;
+    }
+    .image-6-1:hover {
+        opacity: 1;
+    }
 
 .text-2 {
     font-family: 'Delius Unicase';
@@ -99,8 +172,7 @@ body {
 
 /* Grid-2 */
 
-
-.grid-second {
+.grid-2 {
     display: grid;
     grid-template-areas: "g h h"
                          "i i j"
@@ -116,7 +188,13 @@ body {
     left: 135px;
     top: 1660px;
 }
-
+.image-1-2 {
+    border-radius: 20px;
+    opacity: 0.8;
+    }
+    .image-1-2:hover {
+        opacity: 1;
+    }
 
    .grid-item-two {
     grid-area: h;
@@ -126,6 +204,13 @@ body {
     left: 535px;
     top: 1660px;    
    }
+   .image-2-2 {
+    border-radius: 20px;
+    opacity: 0.8;
+    }
+    .image-2-2:hover {
+        opacity: 1;
+    }
 
    .grid-item-three {
     grid-area: i;
@@ -135,6 +220,13 @@ body {
     left: 135px;
     top: 2060px;
    }
+   .image-3-2 {
+    border-radius: 20px;
+    opacity: 0.8;
+    }
+    .image-3-2:hover {
+        opacity: 1;
+    }
 
    .grid-item-four {
     grid-area: j;
@@ -144,6 +236,13 @@ body {
     left: 935px;
     top: 2060px;
    }
+   .image-4-2 {
+    border-radius: 20px;
+    opacity: 0.8;
+    }
+    .image-4-2:hover {
+        opacity: 1;
+    }
 
    .grid-item-five {
     grid-area: k;
@@ -153,6 +252,13 @@ body {
     left: 135px;
     top: 2860px;
 }
+.image-5-2 {
+    border-radius: 20px;
+    opacity: 0.8;
+    }
+    .image-5-2:hover {
+        opacity: 1;
+    }
 
    .grid-item-six {
     grid-area: l;         
@@ -162,4 +268,194 @@ body {
     left: 935px;
     top: 2860px;
 }
+.image-6-2 {
+    border-radius: 20px;
+    opacity: 0.8;
+    }
+    .image-6-2:hover {
+        opacity: 1;
+    }
 
+.text-3 {
+    font-family: 'Delius Unicase';
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #000000;
+    position: absolute;
+    width: 814px;
+    height: 45px;
+    left: 312px;
+    top: 3350px;
+}
+
+/* Grid - 3 */
+
+.grid-3 {
+    display: grid;
+    grid-template-areas: "m n o"
+                         "p n q"
+                         "r s q"
+                         "r t t"
+                         "u u v";
+}
+
+.grid-item-1 {
+    grid-area: m;    
+    position: absolute;
+    width: 370px;
+    height: 370px;
+    left: 135px;
+    top: 3475px;
+}
+.image-1-3 {
+    border-radius: 20px;
+    opacity: 0.8;
+    }
+    .image-1-3:hover {
+        opacity: 1;
+    }
+
+   .grid-item-2 {
+    grid-area: n;
+    position: absolute;
+    width: 370px;
+    height: 770px;
+    left: 535px;
+    top: 3475px;
+   }
+   .image-2-3 {
+    border-radius: 20px;
+    opacity: 0.8;
+    }
+    .image-2-3:hover {
+        opacity: 1;
+    }
+
+   .grid-item-3 {
+    grid-area: o;
+    position: absolute;
+    width: 370px;
+    height: 370px;
+    left: 935px;
+    top: 3475px;
+   }
+   .image-3-3 {
+    border-radius: 20px;
+    opacity: 0.8;
+    }
+    .image-3-3:hover {
+        opacity: 1;
+    }
+
+   .grid-item-4 {
+    grid-area: p;
+    position: absolute;
+    width: 370px;
+    height: 370px;
+    left: 135px;
+    top: 3875px;
+   }
+   .image-4-3 {
+    border-radius: 20px;
+    opacity: 0.8;
+    }
+    .image-4-3:hover {
+        opacity: 1;
+
+    }
+   .grid-item-5 {
+    grid-area: q;
+    position: absolute;
+    width: 370px;
+    height: 770px;
+    left: 935px;
+    top: 3875px;
+}
+.image-5-3 {
+    border-radius: 20px;
+    opacity: 0.8;
+    }
+    .image-5-3:hover {
+        opacity: 1;
+    }
+
+   .grid-item-6 {
+    grid-area: r;         
+    position: absolute;
+    width: 370px;
+    height: 770px;
+    left: 135px;
+    top: 4275px;
+}
+.image-6-3 {
+    border-radius: 20px;
+    opacity: 0.8;
+    }
+    .image-6-3:hover {
+        opacity: 1;
+    }
+
+.grid-item-7 {
+    grid-area: s;         
+    position: absolute;
+    width: 370px;
+    height: 370px;
+    left: 535px;
+    top: 4275px;
+}
+.image-7-3 {
+    border-radius: 20px;
+    opacity: 0.8;
+    }
+    .image-7-3:hover {
+        opacity: 1;
+    }
+
+.grid-item-8 {
+    grid-area: t;         
+    position: absolute;
+    width: 770px;
+    height: 370px;
+    left: 535px;
+    top: 4675px;
+}
+.image-8-3 {
+    border-radius: 20px;
+    opacity: 0.8;
+    } 
+    .image-8-3:hover {
+        opacity: 1;
+    }
+
+.grid-item-9 {
+    grid-area: u;         
+    position: absolute;
+    width: 770px;
+    height: 370px;
+    left: 135px;
+    top: 5075px;
+}
+.image-9-3 {
+    border-radius: 20px;
+    opacity: 0.8;
+    }  
+    .image-9-3:hover {
+        opacity: 1;
+    }
+
+.grid-item-10 {
+    grid-area: v;         
+    position: absolute;
+    width: 370px;
+    height: 370px;
+    left: 935px;
+    top: 5075px;
+}
+.image-10-3 {
+    border-radius: 20px;
+    opacity: 0.8;
+    } 
+    .image-10-3:hover {
+        opacity: 1;
+    }
