@@ -1,0 +1,52 @@
+@import "./reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Farro:wght@300&family=Francois+One&family=PT+Sans:wght@400;700&family=Staatliches&display=swap');
+
+/* font-family: 'Farro', sans-serif;
+font-family: 'Francois One', sans-serif;
+font-family: 'PT Sans', sans-serif;
+font-family: 'Staatliches', cursive; */
+* {
+    box-sizing: border-box;
+}
+ 
+body {
+    background: #C9C9C9;;
+}
+
+main {
+    position: relative;
+    width: 1440px;
+    height: 2375px;
+    background: #FFFFFF;
+    position: relative;
+}
+
+.header {
+    width: 100%;
+    width: 1440px;
+    height: 80px;
+    border: 1px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.logo {
+    margin-left: 500px;
+    border: 1px;
+    width: 238px;
+    height: 60px;
+    padding-top: 16px;
+
+    
+}
+
+.nav {
+    position: absolute;
+    font-family: 'Staatliches';
+    font-size: 22px;
+    border: 1px;
+    padding-top: 26px;
+    
+    
+}
