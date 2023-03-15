@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS</title>
+</head>
+<body>
+
+<form action="#">
+
+    <!-- FORM-1 -->
+<div class="container-1">
+    <fieldset>
+<h1>Create an Account</h1>
+
+<!-- NAME -->
+<label class="roboto-400" for="first-name">First Name</label><br/>
+<input class="text" type="text" id="first-name" name="first-name"/><br/>
+
+<label class="roboto-400" for="last-name">Last Name</label><br/>
+<input class="text" type="text" id="last-name" name="last-name"/>
+<br/><br/>
+
+<!-- EMAIL -->
+<label class="roboto-400" for="email">E-mail</label>
+<input class="e-mail" type="email" id="email" name="email"required><br/><br/>
+
+<span class="bottom-text" >We'll never share your email with anyone else.</span><br><br>
+
+<!-- RADIO -->
+
+<label class="male" for="gender">Male</label>
+<input class="radio" type="radio" name="gender"/>
+
+<label class="female" for="gender">Female</label>
+<input class="radio" type="radio" name="gender"/><br/><br/>
+
+
+<!-- COUNTRY -->
+<label class="roboto-400" for="country">Country</label><br/>
+<select>
+<option value="Ukraine">Ukraine</option>
+<option value="Spain">Spain</option>
+<option value="Greece">Greece</option>
+<option value=disabled selected hidden>Select</option>
+</select>
+
+<!-- CITY -->
+<label class="roboto-400" for="city">City</label>
+<input class="text" type="text" name="city"/><br/><br/>
+
+<!-- BUTTON -->
+<button class="button-1" type="submit">Sign Up</button>
+
+<!-- TERMS -->
+<p>By clicking the 'Sign Up' button, you confirm that you accept our<br/>
+<a href="#">Terms of Use</a>and<a href="#">Privacy Policy</a></p>
+
+<!-- LINE -->
+<hr class="line">
+
+<p>Have an account? <a href="#">Log In</a></p>
+
+</fieldset>
+</div><br/>
+
+
+<!-- FORM-2 -->
+<div class="container-2">
+    <fieldset>
+<h1>Profile</h1>
+
+<!-- photo -->
+<img src="D:\Desktop\Front-End development\My-work\homework-12\assets\imgs\📷 Image.png">
+
+<!-- select pfoto -->
+<label for="text"></label><br/>
+<input class="select-photo" type="text"/>
+
+<span class="up">Up to 1 MB (300x300 px)</span>
+
+<!-- button -->
+<button class="small-button" type="submit"></button><br/>
+
+<!-- name -->
+<label class="roboto-400" for="name">Name</label><br/>
+<input class="text" type="text" name="name"/>
+
+<!-- e-mail -->
+<label class="roboto-400" for="e-mail">E-mail</label>
+<input class="text" type="email" name="email"required><br/><br/>
+
+<!-- country -->
+<label class="roboto-400" for="country">Country</label><br/>
+<select>
+<option value="Ukraine">Ukraine</option>
+<option value="Spain">Spain</option>
+<option value="Greece">Greece</option>
+<option value=""disabled selected hidden>Select</option>
+</select>
+
+<!-- city -->
+<label class="roboto-400" for="city">City</label>
+<input class="text" type="text" name="city"/><br/><br/>
+
+<!-- zip code -->
+
+<label class="roboto-400" for="zip-code">Zip Code</label><br/>
+<input class="text" type="password" name="password"required><br/>
+
+<!-- phone number -->
+<label class="roboto-400" for="phone">Phone Number</label><br/>
+<input class="text" type="tel" id="phone" name="phone"><br/><br/>
+
+<!-- button -->
+<button class="button-2" type="submit">Update</button>
+
+
+</fieldset>
+</div>
+
+</form>
+    
+</body>
+</html>

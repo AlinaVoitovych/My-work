@@ -1,0 +1,224 @@
+@import "./reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+
+body {
+    background: #E5E5E5;
+}
+
+form {
+    display: flex;
+    background: #F7F7F7;
+    position: relative;
+    width: 1440px;
+    height: 700px;
+
+}
+
+fieldset {
+    border-color: #FFFFFF;
+    border-radius: 6px;
+    background: #FFFFFF;
+    width: 570px;  
+    height: 590px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+a {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: #007BFF;
+    text-align:center;
+}
+a:hover {
+color: #1100ff;
+text-decoration: none;
+}
+
+h1 {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: #1C1C1C;
+}
+
+p {
+    text-align:center;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    color: #969696;
+}
+
+/* FORM-1 */
+.container-1 {
+    margin: 55px 30px 55px 135px;
+    box-sizing: border-box;
+}
+/* BUTTON */
+.button-1 {
+    background: #007BFF;
+    border: 1px solid #E4E4E4;
+    border-radius: 6px;
+    color: #FFFFFF;
+    width: 500px;
+    height: 38px;     
+    cursor: pointer;
+    margin-left: 20px;
+}
+.button-1:hover {
+    background: #1100ff;
+    transition: all .5s;
+}
+
+/* text: first name, last name... */
+.roboto-400 {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 15px;
+    color: #545454;
+}
+
+/* NAME */
+.text {
+    width: 235px;
+    height: 38px;
+    background: #FFFFFF;
+    border: 1px solid #E4E4E4;
+    border-radius: 6px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 20px;
+}
+
+.text:hover {
+border: #1100ff;
+}
+.text:focus {
+    outline: none;
+    border-color: #1100ff;
+}
+
+ /* EMAIL */
+.e-mail {
+    width: 500px;
+    height: 38px;
+    background: #FFFFFF;
+    border: 1px solid #E4E4E4;
+    border-radius: 6px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 20px;
+    /* margin-top: 7px; */
+}
+.e-mail:hover {
+    border: #1100ff;
+}
+.e-mail:focus {
+    outline: none;
+    border-color: #1100ff;
+}
+
+/* bottom-text */
+.bottom-text {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 13px;
+    color: #969696; 
+}
+
+/* select-country */
+
+
+/* Radio */
+.radio {
+    width: 20px;
+    height: 20px;
+    padding-left: 6px;
+    padding-top: 6px;
+}
+
+.male {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 15px;
+    color: #545454;
+}
+
+.female {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 15px;
+    color: #545454;
+  
+}
+
+ /* line */
+.line {
+    width: 500px;
+    height: 1px;
+    background: #E4E4E4;
+}
+
+/* FORM-2 */
+.container-2 {
+    margin: 55px 135px 55px 0px;
+    box-sizing: border-box;
+}
+/* Up to... */
+.up {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 13px;
+    color: #969696;
+}
+/* TEXT select photo */
+.select-photo {
+    width: 138px;
+    height: 30px;
+    background: #FFFFFF;
+    border: 1px solid #E4E4E4;
+    border-radius: 6px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 20px;
+}
+.select-photo:hover {
+    border: #1100ff;
+}
+.select-photo:focus {
+    outline: none;
+    border-color: #1100ff;
+}
+
+/* BUTTON */
+.small-button {
+    width: 30px;
+    height: 30px;
+    background: #FFFFFF;
+    border: 1px solid #E4E4E4;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    cursor: pointer;
+}
+.small-button:hover {
+    border: #007BFF;
+    transition: all .5s;
+}
+.button-2 {
+    background: #007BFF;
+    border: 1px solid #E4E4E4;
+    border-radius: 6px;
+    color: #FFFFFF;
+    width: 150px;
+    height: 38px;
+    cursor: pointer;
+    
+}
+.button-2:hover {
+    background: #1100ff;
+    transition: all .5s;
+}
+/* PHONE NUMBER */
