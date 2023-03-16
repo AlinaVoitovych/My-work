@@ -146,6 +146,10 @@ margin-left: 40px;
     line-height: 19px;
     color: #3DB370;
     margin-left: 40px;
+    text-decoration: none;
+}
+.learn-more:hover {
+     color: #5aea5a;
 }
 
  /* Social-icons */
