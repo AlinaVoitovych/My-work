@@ -1,0 +1,223 @@
+@import "./styles/reset.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway:wght@400;500&family=Roboto:wght@900&display=swap');
+
+$raleway-font:'Raleway', sans-serif;
+$roboto-font:'Roboto', sans-serif;
+$open-sans-font:'Open Sans', sans-serif;
+
+$gold:#FFCC00;
+$grey:#666666;
+
+body {
+    background: #E5E5E5;
+    text-align: center;
+}
+
+main {
+    width: 1440px;
+    height: 1000px;
+    background: #FFFFFF;
+    position: relative;
+}
+
+// HEADER
+.h4 {
+    color: #898F8F;
+    font-family: $raleway-font;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 80px;
+}
+
+.h1 {
+    color: $gold;
+    font-family: $roboto-font;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 66px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+
+.diviber {
+    display: inline-flex;
+    align-items: center;
+}
+
+.header-lines {
+    border: none;
+    border-top: 1px solid $gold;
+    color: $gold;
+    width: 210px;
+}
+
+.icon {
+    margin: 0 6.25px;
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin-top: 40px;
+}
+
+// SECTION
+.section-slider {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 41px;
+}
+
+// left-section
+.section-left {
+    margin-left: 180px;
+    margin-top: 100px;
+}
+
+  .photo {
+       border: 0px solid $gold;
+       width: 100vh;
+       max-width: 400px;
+       position: relative;
+       top: 0;
+       left: 0;
+       box-sizing: border-box;
+   }
+
+   .border-1 {  
+    display: block;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    border-left: 1px solid $gold;;
+    border-bottom: 1px solid $gold;;
+    top: -85px;
+    left: -15px;
+}
+
+.border-2 {
+    display: block;
+    border-bottom: 1px solid $gold;
+    border-right: 1px solid $gold;
+    position: relative;
+    width: 100px ;
+    height: 100px;
+    top: -185px;
+    left: 315px; 
+}
+
+.border-3 {
+    display: block;
+    border-top: 1px solid $gold;
+    border-left: 1px solid $gold;
+    position: relative;
+    width: 100px ;
+    height: 100px;
+    top: -625px;
+    left: -15px;
+}        
+.border-4 {
+    display: block;
+    border-top: 1px solid $gold;
+    border-right: 1px solid $gold;
+    position: relative;
+    width: 100px ;
+    height: 100px;
+    bottom: 725px;
+    left: 315px;
+}
+
+// line
+.slider-line {
+    border-left: 1px solid $gold;
+    color: $gold;
+    width: 1px;
+    height: 560px;
+    margin-right: -40px;
+}
+
+.section-right {
+        padding-top: 50px;
+        padding-right: 220px;
+        width: 100vh;
+        max-width: 400px;
+}
+
+.h3 {
+    font-family: $roboto-font;
+    color: $grey;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 42px;
+}
+
+.right-line {
+            border-top: 1px solid $gold;
+            width: 100px;
+            color: $gold;
+            display: inline-table;
+            margin: 30px 0;
+            margin-top: -10px;
+}
+
+.frontend {
+    font-family: $raleway-font;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 36px;
+    color: $grey;
+    margin-top: 0px;
+}
+        //  social
+        .social {
+            margin-top: 30px;
+            margin-bottom: 49px;
+        }
+
+        a:hover {
+            opacity: 0.5;
+        }
+
+.info-description {
+    font-family: $raleway-font;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #333333;
+}
+
+.decore {
+    border-top: 4px dashed $gold;
+    width: 30px;
+    color: $gold;
+    display: inline-table;
+    margin: 20px 0;
+}
+
+.btn {
+    text-decoration: none;
+    font-family: $open-sans-font;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14px;
+    color: $grey;
+    background: #ffff;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    border: 1px solid $gold;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.7;
+}
+
+
+
+
+
+
+
