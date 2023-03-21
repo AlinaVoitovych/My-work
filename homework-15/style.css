@@ -1,0 +1,419 @@
+@import "./styles/reset.css";
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Red+Hat+Display:wght@400;500;600&display=swap");
+body {
+  background: #E5E5E5;
+  margin: 8px;
+  max-width: 100%;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100px;
+  background-color: #ffffff;
+  width: 1440px;
+}
+
+.main-container {
+  position: relative;
+  background: #FFFFFF;
+  width: 1440px;
+  height: 4018px;
+  padding-top: 0.1px;
+}
+
+.logo {
+  margin-left: 135px;
+}
+
+.links {
+  gap: 42px;
+  width: 500px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  list-style: none;
+  margin: 0 -235px 0 0;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+a :hover {
+  text-decoration: underline;
+  background-color: #000000;
+}
+
+.search {
+  width: 17px;
+  height: 16px;
+  margin-right: 135px;
+}
+
+.first-screen {
+  display: block;
+  width: 1440px;
+  height: 600px;
+}
+
+.text-first-screen {
+  position: absolute;
+  margin-left: 135px;
+  margin-top: 100px;
+  font-family: "Red Hat Display";
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+
+.section-blog {
+  display: block;
+}
+
+.title-blog {
+  font-family: "Red Hat Display";
+  letter-spacing: 0.05em;
+  font-weight: 400;
+  font-size: 48px;
+  margin: 0 0 0 135px;
+  padding: 90px 0 50px 0;
+}
+
+.grid-blog {
+  display: -ms-inline-grid;
+  display: inline-grid;
+  -ms-grid-columns: auto 30px auto;
+  grid-template-columns: auto auto;
+  gap: 30px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 1170px;
+  height: 1104px;
+  margin-left: 135px;
+}
+
+.grid-item {
+  width: 570px;
+  height: 470px;
+}
+
+.info-part-one {
+  display: block;
+  width: 450px;
+  height: 300px;
+}
+
+.info-part-second {
+  margin-left: 120px;
+}
+
+.tag {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 166%;
+  letter-spacing: 0.1em;
+  color: #7B7B7B;
+  padding-top: 85px;
+  margin: 0;
+}
+
+.date {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 166%;
+  letter-spacing: 0.1em;
+  color: #7B7B7B;
+  margin: 15px 0 0 0;
+}
+
+.title-info {
+  font-family: "Red Hat Display";
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 166%;
+  letter-spacing: 0.1em;
+  color: #000000;
+  margin: 30px 0 0 0;
+}
+
+.description-info {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 166%;
+  letter-spacing: 0.05em;
+  color: #565656;
+  padding-top: 50px;
+  margin: 0;
+}
+
+.title-post-popular {
+  font-family: "Red Hat Display";
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 166%;
+  letter-spacing: 0.1em;
+  color: #000000;
+}
+
+.text-post-popular {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 166%;
+  letter-spacing: 0.05em;
+  color: #565656;
+}
+
+.heading-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 1170px;
+  margin-left: 135px;
+}
+
+h2 {
+  font-family: "Red Hat Display";
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 166%;
+  letter-spacing: 0.1em;
+  color: #000000;
+  margin-bottom: 50px;
+}
+
+h6 {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 166%;
+  letter-spacing: 0.1em;
+  color: #7B7B7B;
+  margin-bottom: 50px;
+}
+
+span {
+  color: #7B7B7B;
+}
+
+.posts-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto 30px auto 30px auto;
+  grid-template-columns: auto auto auto;
+  width: 1170px;
+  height: 500px;
+  margin-left: 135px;
+  gap: 30px;
+}
+
+.post-content-1 {
+  display: block;
+  width: 370px;
+  height: 156px;
+}
+
+.heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 166%;
+  letter-spacing: 0.1em;
+  color: #7B7B7B;
+}
+
+.post-content-2 {
+  display: block;
+  width: 370px;
+  height: 189px;
+}
+
+.post-content-3 {
+  display: block;
+  width: 370px;
+  height: 178px;
+}
+
+.articles-grid {
+  display: -ms-inline-grid;
+  display: inline-grid;
+  -ms-grid-columns: auto 30px auto;
+  grid-template-columns: auto auto;
+  width: 1170px;
+  height: 500px;
+  margin-left: 135px;
+  gap: 30px;
+}
+
+.btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 180px;
+  height: 46px;
+  background-color: #565656;
+  margin-left: 630px;
+  color: #E5E5E5;
+  margin-top: 54px;
+}
+
+.info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 135px;
+  margin-top: 90px;
+  width: 1170px;
+  height: 192px;
+}
+
+.full-time {
+  display: block;
+  width: 470px;
+  height: 76px;
+  font-family: "Red Hat Display";
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 166%;
+  color: #000000;
+}
+
+.text-info {
+  display: block;
+  width: 470px;
+  height: 192px;
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 32px;
+  letter-spacing: 0.05em;
+  color: #565656;
+}
+
+.footer {
+  width: 1440px;
+  height: 300px;
+  background: #F4F4F4;
+  margin-top: 90px;
+}
+
+.footer-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.CTA {
+  display: block;
+  margin-left: 135px;
+}
+
+.text-item {
+  font-family: "Red Hat Display";
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: 0.05em;
+  color: #000000;
+  margin-top: 70px;
+}
+
+.contacts {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 166%;
+  letter-spacing: 0.1em;
+  color: #000000;
+}
+
+.last-text {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 166%;
+  letter-spacing: 0.1em;
+  color: #000000;
+  text-align: center;
+}
+
+.social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 2px;
+  max-height: 50px;
+  margin-right: 135px;
+  margin-top: 125px;
+  gap: 20px;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #565656;
+  cursor: pointer;
+  -webkit-box-shadow: 0 0 2px #000000;
+          box-shadow: 0 0 2px #000000;
+}
+
+.social :hover {
+  background-color: gray;
+}
+
+.icon :hover {
+  color: #E5E5E5;
+}
