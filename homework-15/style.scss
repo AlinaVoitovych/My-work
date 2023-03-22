@@ -1,8 +1,11 @@
 @import "./styles/reset.css";
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Red+Hat+Display:wght@400;500;600&display=swap');
 
+@import "./files.scss/variables.scss";
+@import "./files.scss/fonts.scss";
+
 body {
-    background: #E5E5E5;
+    background: $body-button-social-color;
     margin: 8px;
     max-width: 100%;
 }
@@ -12,13 +15,13 @@ header {
     justify-content: space-between;
     align-items: center;
     height: 100px;
-    background-color: #ffffff;
+    background-color: $fff-color;
     width: 1440px;
 }
 
 .main-container {
     position: relative;
-    background: #FFFFFF;
+    background: $fff-color;
     width: 1440px;
     height: 4018px;
     padding-top: 0.1px;
@@ -38,18 +41,18 @@ header {
 
 a {
     text-decoration: none;
-    font-family: 'Lato';
+    font-family: $item-font;
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
     letter-spacing: 0.3em;
     text-transform: uppercase;
-    color: #000000;
+    color: $black-color;
 }
 
 a :hover {
     text-decoration: underline;
-    background-color: #000000;
+    background-color: $black-color;
 }
 
 .search {
@@ -67,12 +70,12 @@ a :hover {
     position: absolute;
     margin-left: 135px;
     margin-top: 100px;
-    font-family: 'Red Hat Display';
+    font-family: $title-font;
     font-weight: 600;
     font-size: 48px;
     line-height: 64px;
     letter-spacing: 0.05em;
-    color: #000000;
+    color: $black-color;
 }
 
 // section-blog
@@ -82,7 +85,7 @@ display: block;
 }
 
 .title-blog {
-    font-family: "Red Hat Display";
+    font-family: $title-font;
     letter-spacing: 0.05em;
     font-weight: 400;
     font-size: 48px;
@@ -116,40 +119,41 @@ display: block;
 }
 
 .tag {
-    font-family: 'Lato';
+    font-family: $item-font;
     font-weight: 400;
     font-size: 16px;
     line-height: 166%;
     letter-spacing: 0.1em;
-    color: #7B7B7B;
+    color: $gray-color;
     padding-top: 85px;
     margin: 0;
 }
 .date {
-    font-family: 'Lato';
+    font-family: $item-font;
     font-weight: 400;
     font-size: 16px;
     line-height: 166%;
     letter-spacing: 0.1em;
-    color: #7B7B7B;
+    color: $gray-color;
     margin: 15px 0 0 0;
 }
 .title-info {
-    font-family: 'Red Hat Display';
+    font-family: $title-font;
     font-weight: 500;
     font-size: 23px;
     line-height: 166%;
     letter-spacing: 0.1em;
-    color: #000000;
+    color: $black-color;
     margin: 30px 0 0 0;
 }
+
 .description-info {
-    font-family: 'Lato';
+    font-family: $item-font;
     font-weight: 400;
     font-size: 16px;
     line-height: 166%;
     letter-spacing: 0.05em;
-    color: #565656;
+    color: $dark-gray-color;
     padding-top: 50px;
     margin: 0;
 }
@@ -157,21 +161,21 @@ display: block;
 // section-post
 
 .title-post-popular {
-    font-family: 'Red Hat Display';
+    font-family: $title-font;
     font-weight: 500;
     font-size: 22px;
     line-height: 166%;
     letter-spacing: 0.1em;
-    color: #000000;
+    color: $black-color;
 }
 
 .text-post-popular {
-    font-family: 'Lato';
+    font-family: $item-font;
     font-weight: 400;
     font-size: 16px;
     line-height: 166%;
     letter-spacing: 0.05em;
-    color: #565656;
+    color: $dark-gray-color;
 }
 
 .heading-section {
@@ -181,27 +185,27 @@ display: block;
     margin-left: 135px;
 }
 h2 {
-    font-family: 'Red Hat Display';
+    font-family: $title-font;
     font-weight: 600;
     font-size: 28px;
     line-height: 166%;
     letter-spacing: 0.1em;
-    color: #000000;
+    color: $black-color;
     margin-bottom: 50px;
     }
 
     h6 {
-        font-family: 'Lato';
+        font-family: $item-font;
         font-weight: 400;
         font-size: 16px;
         line-height: 166%;
         letter-spacing: 0.1em;
-        color: #7B7B7B;
+        color: $gray-color;
         margin-bottom: 50px;
     }
 
 span {
-    color: #7B7B7B;
+    color: $gray-color;
 }
 
     .posts-grid {
@@ -223,12 +227,12 @@ span {
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
-        font-family: 'Lato';
+        font-family: $item-font;
         font-weight: 400;
         font-size: 12px;
         line-height: 166%;
         letter-spacing: 0.1em;
-        color: #7B7B7B;
+        color: $gray-color;
     }
 
 .post-content-2 {
@@ -261,10 +265,28 @@ span {
     align-items: center;
     width: 180px;
     height: 46px;
-    background-color: #565656;
+    background-color: $dark-gray-color;
     margin-left: 630px;
-    color: #E5E5E5;
+    color: $body-button-social-color;
     margin-top: 54px;
+}
+
+.btn-text {
+    font-family: $item-font;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 166%;
+    letter-spacing: 0.1em;
+    color: $fff-color;
+    background-color: $dark-gray-color;
+    border: none;
+}
+.btn-text :hover {
+    color: $fff-color;
+}
+
+.btn :hover {
+    background: $background-button;
 }
 
 .info {
@@ -280,29 +302,29 @@ span {
     display: block;
     width: 470px;
     height: 76px;
-    font-family: 'Red Hat Display';
+    font-family: $title-font;
     font-weight: 400;
     font-size: 23px;
     line-height: 166%;
-    color: #000000;
+    color: $black-color;
 }
 .text-info {
     display: block;
     width: 470px;
     height: 192px;
-    font-family: 'Lato';
+    font-family: $item-font;
     font-weight: 400;
     font-size: 19px;
     line-height: 32px;
     letter-spacing: 0.05em;
-    color: #565656;
+    color: $dark-gray-color;
 }
 
 // footer
 .footer {
     width: 1440px;
     height: 300px;
-    background: #F4F4F4;
+    background: $footer-color;
     margin-top: 90px;
 }
 
@@ -317,30 +339,30 @@ span {
 } 
 
 .text-item {
-    font-family: 'Red Hat Display';
+    font-family: $title-font;
     font-weight: 400;
     font-size: 48px;
     line-height: 64px;
     letter-spacing: 0.05em;
-    color: #000000;
+    color: $black-color;
     margin-top: 70px;
 }
 .contacts {
-    font-family: 'Lato';
+    font-family: $item-font;
     font-weight: 400;
     font-size: 16px;
     line-height: 166%;
     letter-spacing: 0.1em;
-    color: #000000;
+    color: $black-color;
 }
 
 .last-text {
-    font-family: 'Lato';
+    font-family: $item-font;
     font-weight: 400;
     font-size: 12px;
     line-height: 166%;
     letter-spacing: 0.1em;
-    color: #000000;
+    color: $black-color;
     text-align: center;
 }
 
@@ -355,17 +377,20 @@ span {
 }
 
 .icon {
-width: 50px;
-height: 50px;
-border: 1px solid #565656;
-cursor: pointer;
-box-shadow: 0 0 2px #000000;
-}
-
-.social :hover {
-    background-color: gray;
-}
+    width: 50px;
+    height: 50px;
+    border: 1px solid $dark-gray-color;
+    cursor: pointer;
+    box-shadow: 0 0 2px $black-color;
+    }
 
 .icon :hover {
-    color: #E5E5E5;
+    fill: $body-button-social-color;
 }
+
+
+.social :hover {
+    background-color: $gray-color;
+    border-color: $body-button-social-color;
+}
+
