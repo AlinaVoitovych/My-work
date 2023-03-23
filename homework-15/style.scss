@@ -1,8 +1,8 @@
 @import "./styles/reset.css";
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Red+Hat+Display:wght@400;500;600&display=swap');
-
 @import "./files.scss/variables.scss";
 @import "./files.scss/fonts.scss";
+@import "./files.scss/adapt.scss";
 
 body {
     background: $body-button-social-color;
@@ -392,5 +392,20 @@ span {
 .social :hover {
     background-color: $gray-color;
     border-color: $body-button-social-color;
+}
+
+.burger {
+    width: 34px;
+    height: 20px;
+    cursor: pointer;
+    background: url(./assets/icons/bars-solid.svg) no-repeat;
+    margin-right: auto;
+    background-size: contain;
+    margin-inline-end: -250px;
+}
+
+.burger_active {
+    background: url(./assets/icons/xmark-solid.svg);
+    background-size: contain;
 }
 

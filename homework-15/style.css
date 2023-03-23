@@ -1,5 +1,10 @@
 @import "./styles/reset.css";
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Red+Hat+Display:wght@400;500;600&display=swap");
+@media screen and (max-width: 1440px) {
+  .burger {
+    display: none;
+  }
+}
 body {
   background: #E5E5E5;
   margin: 8px;
@@ -436,4 +441,20 @@ span {
 .social :hover {
   background-color: #7B7B7B;
   border-color: #E5E5E5;
+}
+
+.burger {
+  width: 34px;
+  height: 20px;
+  cursor: pointer;
+  background: url(./assets/icons/bars-solid.svg) no-repeat;
+  margin-right: auto;
+  background-size: contain;
+  -webkit-margin-end: -250px;
+          margin-inline-end: -250px;
+}
+
+.burger_active {
+  background: url(./assets/icons/xmark-solid.svg);
+  background-size: contain;
 }
