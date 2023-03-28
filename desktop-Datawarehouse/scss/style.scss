@@ -2,16 +2,17 @@
 @import "./variables";
 @import "./mixins";
 @import "./responsive";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,500&family=Roboto:wght@400;700&display=swap');
 
 html {
-   background-color:  #E5E5E5;
+   background-color:  $backg-html;
 }
 
 .wrapper {
     max-width: 1600px;
     width: 100%;
     height: 4500px;
-    background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
+    background: linear-gradient(180deg, $wrap-grad 0%, $color-wtite 19.4%);
 }
 
 
@@ -37,14 +38,20 @@ header {
 
     /* Style the navigation bar links */
 .navbar a {
-    color: #4B5D68;;
+    color: $color-gray;
     text-decoration: none;
     text-align: center;
+    font-family: $ff-Monserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
   }
   
   /* Change color on hover */
   .navbar a:hover {
-    color: black;
+    color: $color-black;
+   
   }
 
 .section-1 {
@@ -55,22 +62,23 @@ header {
 }
 
 h1 {
-    font-family: 'Helvetica';
+    font-family: $ff-Roboto;
     font-weight: 700;
     font-size: 75px;
     line-height: 110%;
     display: flex;
     align-items: center;
-    color: #212353;
+    color: $color-blue;
     margin-bottom: 50px;
 }
 
 p {
+    font-family: $ff-Monserrat;
     max-width: 380px;
     font-weight: 500;
     font-size: 18px;
     line-height: 160%;
-    color: #4B5D68;
+    color: $color-gray;
     margin-bottom: 50px;
 }
 
@@ -87,8 +95,8 @@ img {
 
 // button-white
 .button-white {
-    background: #FFFFFF;
-    box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+    background: $color-wtite;
+    box-shadow: 0px 5px 5px $box-shad-btn;
     border-radius: 50px;
     width: 234px;
     height: 56px;
@@ -101,16 +109,16 @@ img {
     line-height: 160%;
     align-items: center;
     letter-spacing: 0.005em;
-    color: #212353; 
+    color: $color-blue; 
 }
   /* Changes on hover */
 .button-white :hover {
-    box-shadow: 0px 10px 10px rgba(75, 93,104, 0.1);
-    color: rgba(156, 105, 226, 1);
+    box-shadow: 0px 10px 10px $box-shad-btn;
+    color:$rgba-purp;
 }
 
 span {
-color: rgba(156, 105, 226, 1);
+color: $rgba-purp;
 padding-left: 22px;
 }
 
@@ -118,7 +126,7 @@ padding-left: 22px;
 .button-color {
     width: 170px;
     height: 60px;
-    background: #9C69E2;
+    background: $color-purp;
     border-radius: 50px;
     border: none;
 }
@@ -127,11 +135,12 @@ padding-left: 22px;
     font-family: 'Avenir';
     font-weight: 800;
     font-size: 18px;
-    color: #FFFFFF;
+    color: $color-wtite;
 }
   /* Change on hover */
-.button-color :hover {
-    box-shadow: 0px 5px 5px #F063B8;
+.button-color:hover {
+    box-shadow: 0px 5px 5px $color-pink;
+    color: $color-purp;
 }
 
 
@@ -161,13 +170,13 @@ padding-left: 22px;
 }
 
 h3 {
-    font-family: 'Helvetica';
+    font-family: $ff-Roboto;
     font-weight: 700;
     font-size: 40px;
     line-height: 130%;
     display: flex;
     align-items: center;
-    color: #212353;
+    color: $color-blue;
     margin: 0 0 40px 0;
 }
 
@@ -288,11 +297,11 @@ h3 {
     height: 709px;
     left: 242px;
     top: 2789px;
-    background: #9C69E2;
+    background: $color-purp;
     border-radius: 50px;
 }
 .section-4-title {
-    color: #FFFFFF;
+    color: $color-wtite;
     margin-left: 93px;
     margin-top: 109px;
 }
@@ -301,7 +310,7 @@ h3 {
     display: block;
     width: 645px;
     height: 330px;
-    background: #FFFFFF;
+    background: $color-wtite;
     box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3);
     border-radius: 20px;
     margin-left: 236px;
@@ -317,25 +326,30 @@ h3 {
 }
 
 .content-text h6 {
+    font-family: $ff-Monserrat;
+    font-weight: 900;
     font-size: 18px;
-    color: #212353;
+    color: $color-blue;
     margin: 20px 0 0;
 }
 .content-text a {
     text-decoration: none;
     font-size: 14px;
     line-height: 160%;
-    color: #9C69E2;
+    color: $color-purp;
 }
 .content-text p {
+    font-family: $ff-Monserrat;
+    font-weight: 400;
     display: block;
     width: 385px;
     height: 130px;
-    font-size: 20px;
-    color: #4B5D68;
+    font-size: 18px;
+    color: $color-gray;
 }
 
-// section-5
+// SECTION-5
+
 .section-5 {
     position: absolute;
     width: 1600px;
@@ -349,7 +363,7 @@ hr {
     height: 2px;
     left: 0px;
     top: 3648px;
-    background: #9C69E2;
+    background: $color-purp;
     opacity: 0.2;
 }
 
@@ -364,14 +378,16 @@ hr {
 }
 
 .section-5-title h2 {
-    font-family: 'Helvetica';
+    font-family: $ff-Roboto;
     font-size: 40px;
     line-height: 130%;
-    color: #212353;
+    color: $color-blue;
 }
 .section-5-title p {
-    font-size: 20px;
-    color: #4B5D68;
+    font-family: $ff-Monserrat;
+    font-weight: 500;
+    font-size: 18px;
+    color: $color-gray;
 }
 
 // BUTTONS
@@ -380,10 +396,10 @@ hr {
     display: flex;
     gap: 30px;
     margin-top: 150px;
-    margin-left: 302px;
+    margin-left: 380px;
 }
 .section-5-btns .button-color {
-    background: #F063B8;
+    background: $color-pink;
     box-shadow: none;
 }
 
@@ -399,15 +415,27 @@ footer {
 .logo-footer {
     display: flex;
     justify-content: space-between;
-    max-width: 200px;
+    max-width: 250px;
     height: 35px;
+    margin-bottom: 67px;
 }
 
 h5 {
+    font-family: $ff-Monserrat;
+    font-weight: 900;
     font-size: 20px;
     line-height: 160%;
-    color: #212353;
+    color: $color-blue;
     margin-top: 0;
+}
+
+.company-number {
+    font-family: $ff-Monserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: $color-blue;
+    padding-top: 40px;
 }
 
 .grid-container {
@@ -417,30 +445,62 @@ h5 {
 }
 
 // social
-.icon {
-    display: block;
-    width: 50px;
-    height: 50px;
-}
-.icon:hover {
-    background: #212353;
-    opacity: 0.1;
-}
-
 .social-icons {
     display: inline-flex;
     gap: 14px;
-    margin-top: 45px;
+    margin-top: 30px;
+}
+
+
+.f-svg {
+    width: 50px;
+    height: 50px;
+    background: url("../assets/icons/f.svg");
+    color: $color-pink;
+}
+.t-svg {
+    width: 50px;
+    height: 50px;
+    background: url("../assets/icons/t.svg"); 
+}
+.i-svg {
+    width: 50px;
+    height: 50px;
+    background: url("../assets/icons/i.svg");
 }
 
 .social p {
     margin: 0%;
+    font-family:  $ff-Monserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: $color-blue;
 }
 
 .help p {
     margin: 0%;
+    font-family:  $ff-Monserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: $color-blue;
+    width: 166px;
+    margin-right: 50px;
 }
 
 .about p {
     margin: 0%;
+    font-family:  $ff-Monserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: $color-blue;
+    width: 166px;
+    margin-right: 50px;
 }
+
+.data {
+    width: 335px;
+    margin-right: 140px;
+} 

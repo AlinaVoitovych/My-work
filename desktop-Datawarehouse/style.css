@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,500&family=Roboto:wght@400;700&display=swap");
 html {
   background-color: #E5E5E5;
 }
@@ -6,8 +7,8 @@ html {
   max-width: 1600px;
   width: 100%;
   height: 4500px;
-  background: -webkit-gradient(linear, left top, left bottom, from(#F6FAFD), color-stop(19.4%, #FFFFFF));
-  background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#F6FAFD), color-stop(19.4%, white));
+  background: linear-gradient(180deg, #F6FAFD 0%, white 19.4%);
 }
 
 header {
@@ -39,11 +40,16 @@ header {
   color: #4B5D68;
   text-decoration: none;
   text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
 }
 
 /* Change color on hover */
 .navbar a:hover {
-  color: black;
+  color: rgba(0, 0, 0, 0);
 }
 
 .section-1 {
@@ -54,7 +60,7 @@ header {
 }
 
 h1 {
-  font-family: "Helvetica";
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 75px;
   line-height: 110%;
@@ -69,6 +75,7 @@ h1 {
 }
 
 p {
+  font-family: "Montserrat", sans-serif;
   max-width: 380px;
   font-weight: 500;
   font-size: 18px;
@@ -89,7 +96,7 @@ img {
 }
 
 .button-white {
-  background: #FFFFFF;
+  background: white;
   -webkit-box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
           box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
   border-radius: 50px;
@@ -133,13 +140,14 @@ span {
   font-family: "Avenir";
   font-weight: 800;
   font-size: 18px;
-  color: #FFFFFF;
+  color: white;
 }
 
 /* Change on hover */
-.button-color :hover {
+.button-color:hover {
   -webkit-box-shadow: 0px 5px 5px #F063B8;
           box-shadow: 0px 5px 5px #F063B8;
+  color: #9C69E2;
 }
 
 .section-2 {
@@ -165,7 +173,7 @@ span {
 }
 
 h3 {
-  font-family: "Helvetica";
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 40px;
   line-height: 130%;
@@ -304,7 +312,7 @@ h3 {
 }
 
 .section-4-title {
-  color: #FFFFFF;
+  color: white;
   margin-left: 93px;
   margin-top: 109px;
 }
@@ -313,7 +321,7 @@ h3 {
   display: block;
   width: 645px;
   height: 330px;
-  background: #FFFFFF;
+  background: white;
   -webkit-box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3);
           box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3);
   border-radius: 20px;
@@ -334,6 +342,8 @@ h3 {
 }
 
 .content-text h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
   font-size: 18px;
   color: #212353;
   margin: 20px 0 0;
@@ -347,10 +357,12 @@ h3 {
 }
 
 .content-text p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
   display: block;
   width: 385px;
   height: 130px;
-  font-size: 20px;
+  font-size: 18px;
   color: #4B5D68;
 }
 
@@ -383,14 +395,16 @@ hr {
 }
 
 .section-5-title h2 {
-  font-family: "Helvetica";
+  font-family: "Roboto", sans-serif;
   font-size: 40px;
   line-height: 130%;
   color: #212353;
 }
 
 .section-5-title p {
-  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
   color: #4B5D68;
 }
 
@@ -400,7 +414,7 @@ hr {
   display: flex;
   gap: 30px;
   margin-top: 150px;
-  margin-left: 302px;
+  margin-left: 380px;
 }
 
 .section-5-btns .button-color {
@@ -424,15 +438,27 @@ footer {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  max-width: 200px;
+  max-width: 250px;
   height: 35px;
+  margin-bottom: 67px;
 }
 
 h5 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
   font-size: 20px;
   line-height: 160%;
   color: #212353;
   margin-top: 0;
+}
+
+.company-number {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  color: #212353;
+  padding-top: 40px;
 }
 
 .grid-container {
@@ -443,33 +469,65 @@ h5 {
   grid-template-columns: auto auto auto auto;
 }
 
-.icon {
-  display: block;
-  width: 50px;
-  height: 50px;
-}
-
-.icon:hover {
-  background: #212353;
-  opacity: 0.1;
-}
-
 .social-icons {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
   gap: 14px;
-  margin-top: 45px;
+  margin-top: 30px;
+}
+
+.f-svg {
+  width: 50px;
+  height: 50px;
+  background: url("../assets/icons/f.svg");
+  color: #F063B8;
+}
+
+.t-svg {
+  width: 50px;
+  height: 50px;
+  background: url("../assets/icons/t.svg");
+}
+
+.i-svg {
+  width: 50px;
+  height: 50px;
+  background: url("../assets/icons/i.svg");
 }
 
 .social p {
   margin: 0%;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #212353;
 }
 
 .help p {
   margin: 0%;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #212353;
+  width: 166px;
+  margin-right: 50px;
 }
 
 .about p {
   margin: 0%;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #212353;
+  width: 166px;
+  margin-right: 50px;
+}
+
+.data {
+  width: 335px;
+  margin-right: 140px;
 }
