@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,500&family=Roboto:wght@400;700&display=swap");
-html {
+body {
   background-color: #E5E5E5;
+  width: 1600px;
 }
 
 .wrapper {
@@ -137,7 +138,7 @@ span {
 }
 
 .button-learn-more {
-  font-family: "Avenir";
+  font-family: "Montserrat", sans-serif;
   font-weight: 800;
   font-size: 18px;
   color: white;
@@ -147,7 +148,7 @@ span {
 .button-color:hover {
   -webkit-box-shadow: 0px 5px 5px #F063B8;
           box-shadow: 0px 5px 5px #F063B8;
-  color: #9C69E2;
+  color: #68C9BA;
 }
 
 .section-2 {

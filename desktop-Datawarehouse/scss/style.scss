@@ -4,8 +4,9 @@
 @import "./responsive";
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,500&family=Roboto:wght@400;700&display=swap');
 
-html {
+body {
    background-color:  $backg-html;
+   width: 1600px;
 }
 
 .wrapper {
@@ -132,7 +133,7 @@ padding-left: 22px;
 }
 
 .button-learn-more {
-    font-family: 'Avenir';
+    font-family: $ff-Monserrat;
     font-weight: 800;
     font-size: 18px;
     color: $color-wtite;
@@ -140,7 +141,7 @@ padding-left: 22px;
   /* Change on hover */
 .button-color:hover {
     box-shadow: 0px 5px 5px $color-pink;
-    color: $color-purp;
+    color: $color-tiffany;
 }
 
 
@@ -504,3 +505,19 @@ h5 {
     width: 335px;
     margin-right: 140px;
 } 
+
+// @media screen and (max-width:1200px){
+//     .wrapper {
+//         max-width: 970px;
+//     }
+// }    
+// @media screen and (max-width:992px){
+//     .wrapper{
+//         max-width: 750px
+//     }
+// }
+// @media screen and (max-width:767px){
+//     .wrapper{
+//         max-width: none;
+//     }
+// }
