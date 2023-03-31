@@ -72,7 +72,15 @@ body {
     text-transform: uppercase;
     cursor: pointer;
     margin-right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 24px;
 }
+.search-svg {
+    padding-left: 24px;
+}
+
 .search{
     border: none;
     width: 277px;
@@ -132,6 +140,7 @@ left: calc(50% - $container-content-width/2);
     width: 575px;
     height: 20px;
     left: 745px;
+    list-style: none;
 }
 .nav-link a {
     font-family: $ff-aleo;
@@ -203,7 +212,7 @@ left: calc(50% - $container-content-width/2);
     position: absolute;
     width: $container-block-width;
     height: 306px;
-    left: 0px;
+    left: 0;
     top: 1650px;
     background: $dark-grey;
     }
@@ -468,13 +477,41 @@ left: calc(50% - $container-content-width/2);
     background: #5373FD;
 }
 
-
-
-
-
-
-
-
+.fb {
+    fill: $color-white; 
+}
+.fb:hover {
+    fill:#000000;
+    background: #5373FD;
+}
+.tw {
+    fill: $color-white; 
+}
+.tw:hover {
+    fill:#000000;
+    background: #5373FD;
+}
+.lk {
+    fill: $color-white; 
+}
+.lk:hover {
+    fill:#000000;
+    background: #5373FD;
+}
+.yt {
+    fill: $color-white; 
+}
+.yt:hover {
+    fill: #000000;
+    background-color: #5373FD;
+}
+.pn {
+    fill: $color-white; 
+}
+.pn:hover {
+    fill: #000000;
+    background-color: #5373FD;
+}
 
 
 

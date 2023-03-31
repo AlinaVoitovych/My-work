@@ -1,5 +1,22 @@
 @import "../css/normalize.css";
 @import url("https://fonts.googleapis.com/css2?family=Aleo&family=Josefin+Sans:wght@300;400;700&display=swap");
+@media screen and (max-width: 1360px) {
+  .img-2 {
+    padding-left: 111px;
+  }
+  .line {
+    width: 752px;
+    height: 69px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .container-steps {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
 body {
   background: #E5E5E5;
 }
@@ -77,6 +94,20 @@ body {
   text-transform: uppercase;
   cursor: pointer;
   margin-right: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-right: 24px;
+}
+
+.search-svg {
+  padding-left: 24px;
 }
 
 .search {
@@ -147,6 +178,7 @@ body {
   width: 575px;
   height: 20px;
   left: 745px;
+  list-style: none;
 }
 
 .nav-link a {
@@ -221,7 +253,7 @@ body {
   position: absolute;
   width: 1920px;
   height: 306px;
-  left: 0px;
+  left: 0;
   top: 1650px;
   background: #333333;
 }
@@ -515,4 +547,49 @@ body {
 
 .icons:hover {
   background: #5373FD;
+}
+
+.fb {
+  fill: #FFFFFF;
+}
+
+.fb:hover {
+  fill: #000000;
+  background: #5373FD;
+}
+
+.tw {
+  fill: #FFFFFF;
+}
+
+.tw:hover {
+  fill: #000000;
+  background: #5373FD;
+}
+
+.lk {
+  fill: #FFFFFF;
+}
+
+.lk:hover {
+  fill: #000000;
+  background: #5373FD;
+}
+
+.yt {
+  fill: #FFFFFF;
+}
+
+.yt:hover {
+  fill: #000000;
+  background-color: #5373FD;
+}
+
+.pn {
+  fill: #FFFFFF;
+}
+
+.pn:hover {
+  fill: #000000;
+  background-color: #5373FD;
 }

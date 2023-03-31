@@ -1,0 +1,17 @@
+@media screen and (max-width: 1360px) {
+  .img-2 {
+    padding-left: 111px;
+  }
+  .line {
+    width: 752px;
+    height: 69px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .container-steps {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
