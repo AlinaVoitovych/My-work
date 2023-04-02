@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Aleo&family=Josefin+Sans:wght@300;400;700&display=swap");
+@import "../css/normalize.css";
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: "Aleo", serif, "Josefin Sans", sans-serif;
+  margin: 0 auto;
+  width: 1920px;
+  color: #FFFFFF;
+  transition: all 0.2s ease-in;
+}
+
+.header {
+  width: 100%;
+  height: 862px;
+  background: url(../assets/imgs/HeaderBackground.png);
+}
+.header__title {
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 52px;
+  text-transform: uppercase;
+  padding-top: 295px;
+  margin: 0 0 8px 0;
+}
+.header__text {
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 0.31em;
+  margin: 0;
+}
+
+.form-search {
+  width: 647px;
+  height: 60px;
+  align-items: center;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 48px;
+}
+.form-search__search {
+  width: 277px;
+  height: 20px;
+  font-family: "Josefin Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2em;
+  color: #999999;
+  border: none;
+  margin-left: 36px;
+}
+.form-search__submit {
+  width: 139px;
+  height: 52px;
+  background: #5373FD;
+  margin: 4px 5px 4px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 18px 0 24px;
+  font-family: "Aleo", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  cursor: pointer;
+  border: none;
+}
+
+.nav {
+  width: 100%;
+  height: 84px;
+  background: #5373FD;
+}
+.nav__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+.nav__logo {
+  font-family: "Josefin Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.nav__list {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+.nav a {
+  font-family: "Aleo", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.why-section {
+  width: 100%;
+  height: 704px;
+  background: url(../assets/imgs/WhyBackground.png);
+}
+.why-section__container {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 1320px;
+  height: 100%;
+  gap: 136px;
+  align-items: center;
+  margin-left: 300px;
+}
+.why-section__content {
+  width: 648px;
+  height: 324px;
+}
+.why-section h2 {
+  font-family: "Aleo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
+  text-transform: capitalize;
+}
+.why-section p {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.1em;
+}
+.why-section__btn {
+  width: 213px;
+  height: 60px;
+  background: #5373FD;
+  font-family: "Aleo", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  border: none;
+  cursor: pointer;
+}
+.why-section__images {
+  width: 424px;
+  height: 456px;
+}
+.why-section__images__img-1 {
+  width: 350px;
+  height: 220px;
+}
+.why-section__images__img-2 {
+  width: 100%;
+  padding: 16px 0 0 74px;
+}
+
+.section-steps {
+  width: 100%;
+  height: 306px;
+  background-color: #333333;
+}
+.section-steps__container {
+  width: 1320px;
+  height: 306px;
+  margin-left: 300px;
+}
+.section-steps__container__icons {
+  display: flex;
+  gap: 24px;
+}
+.section-steps__container__icon-box {
+  width: 424px;
+  height: 139px;
+  text-align: center;
+}
+.section-steps__container__line {
+  width: 872px;
+  height: 90px;
+  margin-left: 224px;
+}
+
+.section-booknow-1 {
+  width: 100%;
+  height: 684px;
+  background: url(../assets/imgs/BG-booknow.png);
+}
+
+.section-booknow-2 {
+  width: 100%;
+  height: 684px;
+  background: url(../assets/imgs/BG-booknow-2.png);
+}
+
+.section-what {
+  width: 100%;
+  height: 680px;
+  background: url(../assets/imgs/BG-section-what.png);
+}
+
+.footer-section {
+  width: 100%;
+  height: 268px;
+  background-color: black;
+}
