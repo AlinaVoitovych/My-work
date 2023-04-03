@@ -12,7 +12,9 @@
   body {
     font-family: $ff-aleo, $ff-josefin;
     margin: 0 auto;
-    width: 1920px;
+    max-width: 1920px;
+    width: 100%;
+    height: 100vh;
     color: $color-white;
     transition: all .2s ease-in;
   }
@@ -88,6 +90,9 @@ color: $color-white;
 cursor: pointer;
 border: none;
 }
+&__submit:hover {
+    opacity: .8;
+}
 }
 
 // nav
@@ -97,6 +102,7 @@ height: 84px;
 background: $background-blue;
 
 &__container {
+    width: 1320px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -139,7 +145,7 @@ a {
     &__container {
         display: grid;
         grid-template-columns: auto auto;
-        width: 1320px;
+        width: $container-content-width;
         height: 100%;
         gap: 136px;
         align-items: center;
@@ -150,7 +156,7 @@ a {
             height: 324px;
         }
             h2 {
-                font-family: 'Aleo';
+                font-family: $ff-aleo;
                 font-style: normal;
                 font-weight: 400;
                 font-size: 36px;
@@ -158,14 +164,14 @@ a {
                 text-transform: capitalize;
             }
             p {
-                font-family: 'Josefin Sans';
+                font-family: $ff-josefin;
                 font-style: normal;
                 font-weight: 300;
                 font-size: 16px;
                 line-height: 28px;
                 letter-spacing: 0.1em;
             }
-&__btn{
+&__btn {
     width: 213px;
     height: 60px;
     background: $background-blue;
@@ -181,10 +187,12 @@ a {
     border: none;
     cursor: pointer;
 }
+&__btn:hover {
+    opacity: .8;
+}
 &__images {
         width: 424px;
         height: 456px;
-
 
         &__img-1 {
             width: 350px;
@@ -204,9 +212,11 @@ a {
     background-color:$dark-grey;
 
     &__container {
-        width: 1320px;
+        width: $container-content-width;
         height: 306px;
         margin-left: $section-content-left;
+        position: relative;
+        padding-top: 107px;
 
         &__icons {
             display: flex;
@@ -217,12 +227,24 @@ a {
             width: 424px;
             height: 139px;
             text-align: center;
+    
+            h2 {
+                font-family: $ff-aleo;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 36px;
+                line-height: 40px;
+                text-transform: capitalize;
+                margin: 0;
+            }
         }
 
         &__line {
             width: 872px;
             height: 90px;
             margin-left: 224px;
+            position: absolute;
+            margin-top: -80px;
         }
     }
 }
@@ -232,23 +254,179 @@ a {
     width: 100%;
     height: 684px;
     background: url(../assets/imgs/BG-booknow.png);
-}
 
+&__container {
+    width: $container-content-width;
+    height: 100%;
+    margin-left: $section-content-left;
+    position: relative;
+
+    &__card {
+        width: 648px;
+        height: 344px;
+        background: rgba(35, 35, 35, 0.9);
+        position: absolute;
+        margin-top: 220px;
+        padding-left: 32px;
+    }
+  }
+}
 .section-booknow-2 {
     width: 100%;
     height: 684px;
     background: url(../assets/imgs/BG-booknow-2.png);
+
+    &__container {
+        width: $container-content-width;
+        height: 100%;
+        margin-left: $section-content-left;
+        position: relative;
+
+        &__card {
+        width: 648px;
+        height: 344px;
+        background: rgba(35, 35, 35, 0.9);
+        position: absolute;
+        margin: 220px 0 120px 672px;
+        padding-left: 32px;
+       }
+     }
+   }
+    .text-h6 {
+        font-family: $ff-josefin;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 28px;
+        letter-spacing: 0.1em;
+        margin: 0;
+        padding-top: 44px;
+        padding-bottom: 16px;
+    }
+.text-h5{
+    font-family: $ff-josefin;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-transform: uppercase;
+    margin: 0;
+    padding-bottom: 16px;
+}
+.text-p {
+    font-family: $ff-josefin;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.1em;
+    margin: 0;
+    padding-bottom: 24px;
 }
 
+// section-what
 .section-what {
     width: 100%;
     height: 680px;
     background: url(../assets/imgs/BG-section-what.png);
+
+&__text-title {
+    font-family: $ff-aleo;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 120px 0 60px;
+    margin: 0;
 }
 
+
+&__container-review {
+    display: flex;
+    flex-direction: row;
+    margin-left: $section-content-left;
+
+    &__review-photo {
+        max-width: 440px;
+        width: 100%;
+        height: 280px;
+    }
+
+    &__text-review {
+        background-color: $dark-grey;
+        padding-left: 60px;
+        padding-right: 65px;
+        h5 {
+            font-family: $ff-josefin;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 28px;
+            text-transform: uppercase;
+            margin: 0;
+            padding: 48px 0 11.25px;
+      }
+    }
+    &__blockquote {
+        p {
+            margin: 0;
+            font-family: $ff-josefin;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 28px;
+            letter-spacing: 0.1em;
+      }
+    }
+  }
+}
+// footer
 .footer-section {
     width: 100%;
     height: 268px;
     background-color: black;
+    h3 {
+        font-family: $ff-josefin;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        text-align: center;
+        margin: 0;
+        padding-top: 80px;
+        padding-bottom: 8px;
+    }
+    p {
+        font-family: $ff-josefin;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.2em;
+        text-align: center;
+        margin: 0;
+        padding-bottom: 20px;
+     }
+   }
+// sicial
+.socials {
+    max-width: 275px;
+    height: 32px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    margin-left: 823px;
 
-}
+    &__icons:hover {
+        width: 36px;
+        height: 36px;
+        background-color: $background-blue;
+        fill: $color-black;
+    }
+  }
