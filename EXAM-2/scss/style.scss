@@ -22,6 +22,7 @@ body {
     width: 100%;
     height: 862px;
     background: url(../assets/imgs/HeaderBackground.png);
+    background-size: cover;
 
     &__title {
         text-align: center;
@@ -49,6 +50,7 @@ body {
 
 .form-search {
     width: 647px;
+    max-width: calc(100% - 36px);
     height: 60px;
     align-items: center;
     background-color: $color-white;
@@ -96,10 +98,22 @@ body {
         opacity: .8;
     }
 }
+    .scroll-down {
+        text-align: center;
+        font-family: $ff-josefin;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.2em;
+        margin-top: 211px;
+        cursor: pointer;
+    }
+
 
 // nav
 .nav {
-    max-width: $container-block-width;
+    // max-width: $container-block-width;
     width: 100%;
     // height: 84px;
     padding: 32px 0;
@@ -140,6 +154,10 @@ body {
         text-transform: uppercase;
         color: $color-white;
         text-decoration: none;
+    }
+    a:hover {
+        opacity: .8;
+        text-decoration: underline;
     }
 }
 
@@ -206,6 +224,8 @@ body {
     width: 100%;
     height: 704px;
     background: url(../assets/imgs/WhyBackground.png);
+    background-size: cover;
+
 
     &__container {
         display: flex;
@@ -240,6 +260,7 @@ body {
         font-size: 16px;
         line-height: 28px;
         letter-spacing: 0.1em;
+        padding-top: 24px;
     }
 
     &__btn {
@@ -257,6 +278,7 @@ body {
         color: $color-white;
         border: none;
         cursor: pointer;
+        margin-top: 32px;
     }
 
     &__btn:hover {
@@ -270,12 +292,12 @@ body {
         &__img-1 {
             width: 350px;
             // height: 220px;
-            margin-right: 16px;
+            margin-right: 110px;
         }
 
         &__img-2 {
             width: 350px;
-            margin-left: 16px;
+            margin-left: 110px;
             margin-top: 16px;
 
             // width: 100%;
@@ -287,20 +309,22 @@ body {
 // steps
 .section-steps {
     width: 100%;
-    height: 306px;
+    // height: 306px;
     background-color: $dark-grey;
 
     &__container {
         width: $container-content-width;
         max-width: 100%;
-        height: 306px;
+        // height: 306px;
         // margin-left: $section-content-left;
         margin: 0 auto;
         position: relative;
-        padding-top: 107px;
+        padding-top: 180px;
+        padding-bottom: 44px;
 
         &__icons {
             display: flex;
+            justify-content: center;
             gap: 24px;
 
         }
@@ -322,11 +346,13 @@ body {
         }
 
         &__line {
-            width: 80%;
+            width: 100%;
             height: 90px;
-            left: 85px;
+            left: 0;
             position: absolute;
-            top: 10px;
+            display: flex;
+            justify-content: center;
+            top: 90px;
 
             img {
                 max-width: 100%;
@@ -340,22 +366,29 @@ body {
     width: 100%;
     height: 684px;
     background: url(../assets/imgs/BG-booknow.png);
+    background-size: cover;
+
 
     &__container {
         width: $container-content-width;
         max-width: 100%;
         display: flex;
+        align-items: center;
+        height: 100%;
+        
         // height: 100%;
         // margin-left: $section-content-left;
         // position: relative;
 
         &__card {
-            width: 648px;
-            height: 344px;
+            width: 558px;
+            // height: 344px;
             background: rgba(35, 35, 35, 0.9);
             // position: absolute;
-            margin-top: 220px;
+            margin-top: 110px;
             padding-left: 32px;
+            padding: 44px 32px;
+
         }
     }
 }
@@ -364,6 +397,8 @@ body {
     width: 100%;
     height: 684px;
     background: url(../assets/imgs/BG-booknow-2.png);
+    background-size: cover;
+
 
     &__container {
         width: $container-content-width;
@@ -375,18 +410,19 @@ body {
         // position: relative;
         display: flex;
         justify-content: flex-end;
+        align-items: center;
 
         &__card {
-            width: 648px;
-            height: 344px;
+            width: 558px;
+            // height: 344px;
             background: rgba(35, 35, 35, 0.9);
             // position: absolute;
             
             // margin: 220px 0 120px 672px;
             // right: 0;
             // top: 220px;
-            margin-top: 220px;
-            padding-left: 32px;
+            margin-top: 110px;
+            padding: 44px 32px;
         }
     }
 }
@@ -399,7 +435,7 @@ body {
     line-height: 28px;
     letter-spacing: 0.1em;
     margin: 0;
-    padding-top: 44px;
+    // padding-top: 44px;
     padding-bottom: 16px;
 }
 
@@ -425,11 +461,33 @@ body {
     padding-bottom: 24px;
 }
 
+.btn-booknow {
+    width: 213px;
+    height: 60px;
+    background: $background-blue;
+    border: none;
+    font-family: $ff-aleo;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: $color-white;
+    cursor: pointer;
+}
+.btn-booknow:hover {
+    opacity: .8;
+}
+
 // section-what
 .section-what {
     width: 100%;
     height: 680px;
     background: url(../assets/imgs/BG-section-what.png);
+    background-size: cover;
+
 
     &__text-title {
         font-family: $ff-aleo;
@@ -490,7 +548,7 @@ body {
 .footer-section {
     width: 100%;
     height: 268px;
-    background-color: black;
+    background-color: $color-black;
 
     h3 {
         font-family: $ff-josefin;

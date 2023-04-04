@@ -115,7 +115,7 @@
     padding-top: 0;
   }
 }
-@media (max-width: 576px) {
+@media (max-width: 900px) {
   .burger {
     display: -webkit-box;
     display: -ms-flexbox;

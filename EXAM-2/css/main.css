@@ -20,6 +20,7 @@ body {
   width: 100%;
   height: 862px;
   background: url(../assets/imgs/HeaderBackground.png);
+  background-size: cover;
 }
 .header__title {
   text-align: center;
@@ -45,6 +46,7 @@ body {
 
 .form-search {
   width: 647px;
+  max-width: calc(100% - 36px);
   height: 60px;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -102,8 +104,19 @@ body {
   opacity: 0.8;
 }
 
+.scroll-down {
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2em;
+  margin-top: 211px;
+  cursor: pointer;
+}
+
 .nav {
-  max-width: 1920px;
   width: 100%;
   padding: 32px 0;
   background: #5373FD;
@@ -147,6 +160,10 @@ body {
   text-transform: uppercase;
   color: #FFFFFF;
   text-decoration: none;
+}
+.nav a:hover {
+  opacity: 0.8;
+  text-decoration: underline;
 }
 
 .nav__list_mobile {
@@ -208,6 +225,7 @@ body {
   width: 100%;
   height: 704px;
   background: url(../assets/imgs/WhyBackground.png);
+  background-size: cover;
 }
 .why-section__container {
   display: -webkit-box;
@@ -237,6 +255,7 @@ body {
   font-size: 16px;
   line-height: 28px;
   letter-spacing: 0.1em;
+  padding-top: 24px;
 }
 .why-section__btn {
   width: 213px;
@@ -253,6 +272,7 @@ body {
   color: #FFFFFF;
   border: none;
   cursor: pointer;
+  margin-top: 32px;
 }
 .why-section__btn:hover {
   opacity: 0.8;
@@ -263,31 +283,33 @@ body {
 }
 .why-section__images__img-1 {
   width: 350px;
-  margin-right: 16px;
+  margin-right: 110px;
 }
 .why-section__images__img-2 {
   width: 350px;
-  margin-left: 16px;
+  margin-left: 110px;
   margin-top: 16px;
 }
 
 .section-steps {
   width: 100%;
-  height: 306px;
   background-color: #333333;
 }
 .section-steps__container {
   width: 1320px;
   max-width: 100%;
-  height: 306px;
   margin: 0 auto;
   position: relative;
-  padding-top: 107px;
+  padding-top: 180px;
+  padding-bottom: 44px;
 }
 .section-steps__container__icons {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   gap: 24px;
 }
 .section-steps__container__icon-box {
@@ -305,11 +327,17 @@ body {
   margin: 0;
 }
 .section-steps__container__line {
-  width: 80%;
+  width: 100%;
   height: 90px;
-  left: 85px;
+  left: 0;
   position: absolute;
-  top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  top: 90px;
 }
 .section-steps__container__line img {
   max-width: 100%;
@@ -319,6 +347,7 @@ body {
   width: 100%;
   height: 684px;
   background: url(../assets/imgs/BG-booknow.png);
+  background-size: cover;
 }
 .section-booknow-1__container {
   width: 1320px;
@@ -326,19 +355,24 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
 }
 .section-booknow-1__container__card {
-  width: 648px;
-  height: 344px;
+  width: 558px;
   background: rgba(35, 35, 35, 0.9);
-  margin-top: 220px;
+  margin-top: 110px;
   padding-left: 32px;
+  padding: 44px 32px;
 }
 
 .section-booknow-2 {
   width: 100%;
   height: 684px;
   background: url(../assets/imgs/BG-booknow-2.png);
+  background-size: cover;
 }
 .section-booknow-2__container {
   width: 1320px;
@@ -350,13 +384,15 @@ body {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .section-booknow-2__container__card {
-  width: 648px;
-  height: 344px;
+  width: 558px;
   background: rgba(35, 35, 35, 0.9);
-  margin-top: 220px;
-  padding-left: 32px;
+  margin-top: 110px;
+  padding: 44px 32px;
 }
 
 .text-h6 {
@@ -367,7 +403,6 @@ body {
   line-height: 28px;
   letter-spacing: 0.1em;
   margin: 0;
-  padding-top: 44px;
   padding-bottom: 16px;
 }
 
@@ -393,10 +428,32 @@ body {
   padding-bottom: 24px;
 }
 
+.btn-booknow {
+  width: 213px;
+  height: 60px;
+  background: #5373FD;
+  border: none;
+  font-family: "Aleo", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.btn-booknow:hover {
+  opacity: 0.8;
+}
+
 .section-what {
   width: 100%;
   height: 680px;
   background: url(../assets/imgs/BG-section-what.png);
+  background-size: cover;
 }
 .section-what__text-title {
   font-family: "Aleo", serif;
@@ -504,6 +561,11 @@ body {
   fill: black;
 }
 
+@media (max-width: 1410px) {
+  .section-steps__container__line img {
+    width: 70%;
+  }
+}
 @media (min-width: 1025px) {
   .nav__container,
 .why-section__container,
@@ -530,6 +592,12 @@ body {
     -o-object-fit: cover;
        object-fit: cover;
     height: 336px;
+  }
+  .why-section__images__img-1 {
+    margin-right: 36px;
+  }
+  .why-section__images__img-2 {
+    margin-left: 36px;
   }
 }
 @media (max-width: 768px) {
@@ -620,8 +688,15 @@ body {
   .section-what__container-review__text-review h5 {
     padding-top: 0;
   }
+  .nav__container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 32px;
+  }
 }
-@media (max-width: 900px) {
+@media (max-width: 576px) {
   .burger {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -652,5 +727,25 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+  }
+  .nav__logo {
+    display: block;
+    margin: 0 auto;
+  }
+  .nav__logo h3 {
+    padding-left: 40px;
+  }
+  .nav__container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    gap: 0;
+  }
+  .why-section__images {
+    width: auto;
+  }
+  .why-section__images img {
+    max-width: calc(50% - 12px);
   }
 }
